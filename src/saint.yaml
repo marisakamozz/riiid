@@ -1,0 +1,16 @@
+hydra:
+  run:
+    dir: ../logs/outputs/${now:%Y%m%d}/${now:%H%M%S}
+
+cv: null
+experiment: 'SAINT'
+seed: 1234
+n_dim: 128
+seq_len: 150
+std: 0.01
+dropout: 0.1
+nhead: 8
+n_layers: 3
+max_epochs: 100
+batch_size: 256
+patience: 10

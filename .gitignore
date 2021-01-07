@@ -1,0 +1,7 @@
+/input
+/logs
+/data
+/models
+*.zip
+*.ipynb
+submission.csv

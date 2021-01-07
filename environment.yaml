@@ -1,0 +1,21 @@
+name: riiid
+channels:
+  - pytorch
+  - conda-forge
+  - default
+dependencies:
+  - python=3.7.9
+  - pip=20.3.1
+  - tqdm=4.54.1
+  - pytorch=1.7.1
+  - cudatoolkit=11.0.3
+  - scikit-learn=0.23.2
+  - jupyter=1.0.0
+  - jupyter_contrib_nbextensions=0.5.1
+  - matplotlib=3.3.3
+  - pylint=2.6.0
+  - pip:
+    - pytorch-lightning==1.1.0
+    - mlflow==1.12.1
+    - hydra-core==1.0.4
+    - kaggle==1.5.10
