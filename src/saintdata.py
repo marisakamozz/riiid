@@ -5,7 +5,7 @@ import pandas as pd
 
 from util import init, get_path
 from data import read_train
-from sainttrain import load_saint_config
+from saintsubmit import load_saint_config
 
 
 QUANTILES = np.arange(0, 1, 0.01)
